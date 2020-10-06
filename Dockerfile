@@ -9,3 +9,5 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip3 install atlassian-python-api
+
+ENTRYPOINT [ ]
